@@ -309,7 +309,7 @@ export default function Screen() {
                   : "1인용 모듈하우스"}
                 {address}
               </Text>
-              <Text style={styles.price}>매매 {price}</Text>
+              <Text style={styles.price}>{price}</Text>
               <Text
                 style={{
                   color: "#404040",
@@ -570,7 +570,7 @@ export default function Screen() {
             shadowRadius: 8,
           }}
         >
-          <Text>매매 000</Text>
+          <Text>{price}</Text>
           <TouchableOpacity>
             <View style={styles.btn}>
               <Text style={styles.btnText}>계약하기</Text>
