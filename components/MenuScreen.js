@@ -16,13 +16,12 @@ export default function MenuScreen({ menu, setMenu }) {
   const navigate = useRouter();
 
   const navigation = (path) => {
-    console.log("페이지이동 /" + path);
+    // console.log("페이지이동 /" + path);
+    alert("개발중입니다");
     closeMenu();
-    navigate.push({
-      pathname: "/" + path,
-      // params: {
-      // },
-    });
+    // navigate.push({
+    //   pathname: "/" + path,
+    // });
   };
 
   // 메뉴 토글추가
