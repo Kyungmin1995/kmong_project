@@ -176,6 +176,7 @@ export default function Screen() {
     <>
       <Stack.Screen
         options={{
+          animation: "none",
           headerShown: false, // 여기서 헤더를 숨깁니다
         }}
       />
@@ -301,14 +302,7 @@ export default function Screen() {
                   </Text>
                 </View>
               </View>
-              <Text style={styles.address}>
-                {category === "B"
-                  ? "2~3인용 모듈하우스"
-                  : category === "C"
-                  ? "2~3인용 모듈하우스 (욕실 1개)"
-                  : "1인용 모듈하우스"}
-                {address}
-              </Text>
+              <Text style={styles.address}>{address}</Text>
               <Text style={styles.price}>{price}</Text>
               <Text
                 style={{

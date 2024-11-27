@@ -44,13 +44,15 @@ export default function Header(headerProps: headerProps) {
             </TouchableOpacity>
             {/* 제목 */}
             <Text style={styles.headerText}>
-              {currentTitle === "index"
-                ? "관심 목록"
-                : currentTitle === "post"
+              {currentTitle === "post"
                 ? "내가 쓴글/댓글"
+                : currentTitle === "list"
+                ? "관심 목록"
                 : currentTitle === "chat"
                 ? "채팅"
-                : route.params?.title}
+                : currentTitle === "profile"
+                ? "프로필 설정"
+                : headerProps.title}
             </Text>
           </View>
 
