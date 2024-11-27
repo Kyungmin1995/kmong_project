@@ -57,13 +57,13 @@ export default function Header(headerProps: headerProps) {
           </View>
 
           <View style={styles.menuView}>
-            <TouchableOpacity
+            {/* <TouchableOpacity
               onPress={() => {
                 alert("개발예정입니다");
               }}
             >
               <BuildingIcon />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <TouchableOpacity onPress={toggleMenu}>
               <MenuIcon />
             </TouchableOpacity>
