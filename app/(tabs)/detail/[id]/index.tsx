@@ -365,11 +365,11 @@ export default function Screen() {
                 <View style={styles.iconItem}>
                   <HouseIcon />
                   <Text>
-                    {id === "B"
+                    {category === "B"
                       ? "2~3인용 모듈하우스"
-                      : id === "C"
+                      : category === "C"
                       ? "2~3인용 모듈하우스 (욕실 1개)"
-                      : "1인용 모듈하우스"}
+                      : "1~2인용 모듈하우스"}
                   </Text>
                 </View>
                 <View style={styles.iconItem}>
