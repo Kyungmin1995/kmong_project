@@ -34,7 +34,7 @@ export default function Post() {
                   backgroundColor: "#F4F2F7",
                 }}
                 source={require("@/assets/images/List/item1.png")}
-                resizeMode={"contain"} // 'cover', 'contain', 'stretch', 'repeat', 'center'
+                resizeMode={"cover"} // 'cover', 'contain', 'stretch', 'repeat', 'center'
               />
               <View style={{ justifyContent: "space-between" }}>
                 <View style={{ gap: height * 1 }}>
@@ -52,7 +52,7 @@ export default function Post() {
                   backgroundColor: "#F4F2F7",
                 }}
                 source={require("@/assets/images/List/item2.png")}
-                resizeMode={"contain"} // 'cover', 'contain', 'stretch', 'repeat', 'center'
+                resizeMode={"cover"} // 'cover', 'contain', 'stretch', 'repeat', 'center'
               />
               <View style={{ justifyContent: "space-between" }}>
                 <View style={{ gap: height * 1 }}>
