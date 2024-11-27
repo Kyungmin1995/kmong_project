@@ -124,6 +124,7 @@ export default function () {
                     height: width * 35,
                     position: "absolute",
                     left: width * 40,
+                    top: route.params.title !== "B 4호 김우인" ? height * 5 : 0,
                   }}
                   source={require("@/assets/images/chat/Subtract.png")}
                   resizeMode={"contain"}
@@ -135,12 +136,13 @@ export default function () {
                     borderRadius: width * 10,
                     position: "absolute",
                     left: width * 50,
+                    top: route.params.title !== "B 4호 김우인" ? height * 5 : 0,
                   }}
                 >
                   <Text
                     numberOfLines={2}
                     ellipsizeMode="tail"
-                    style={{ width: width * 240 }}
+                    style={{ maxWidth: width * 240 }}
                   >
                     {route.params.data}
                   </Text>
